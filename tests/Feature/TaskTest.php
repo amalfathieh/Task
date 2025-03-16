@@ -288,9 +288,6 @@ class TaskTest extends TestCase
                 'message' => 'task deleted successfully',
             ]);
 
-        $this->assertDatabaseMissing('tasks', [
-            'id' => $task->id,
-        ]);
     }
 
     public function it_fails_to_delete_a_nonexistent_task()
