@@ -24,5 +24,7 @@ To install Job and freelancing portal project, follow these steps:
 10. Open up the server: **`php artisan serve`**
 11. to run test :**`php artisan test --filter AuthTest`**
 12. to run task test : **`php artisan test --filter TaskTest`** 
-    
+
+
+     API documentation: https://documenter.getpostman.com/view/30812574/2sAYkBtgmB
    
